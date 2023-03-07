@@ -1,17 +1,44 @@
 /* Page Elements */
 @font-face {
-    font-family: 'aansa';
-    src: url('..fonts/aansa/aansa.ttf') format('truetype');
+    font-family: sdautopilot;
+    src: url('fonts/sdautopilot/sd_auto_pilot.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'kirbysadventure';
-    src: url('fonts/aansa/Kirbys-Adventure.ttf') format('truetype');
+    font-family: kirbysadventure;
+    src: url('fonts/kirbysadventure/Kirbys-Adventure.ttf') format('truetype');
 }
 
  @font-face {
-    font-family: 'perfectdos';
+    font-family: perfectdos;
     src: url('fonts/perfectdosvga/Perfect DOS VGA 437 Win.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: pearsoda;
+    src: url('fonts/pearsoda/PearSoda.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: pixeloidmono;
+    src: url('fonts/pixeloidmono/PixeloidMono.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: pixerif;
+    src: url('fonts/pixerif/Pixerif.ttf') format('truetype');
+}
+    
+@font-face {
+font-family: nds;
+src: url('fonts/nds/nds.ttf') format('truetype');
+    
+}
+
+@font-face {
+font-family: animalcrossing;
+src: url('fonts/AnimalCrossing/animalcrossing.ttf') format('truetype');
+    
 }
 
 body {
@@ -22,12 +49,17 @@ body {
     background-color: #f8ec3c;
 	margin-top: 0px;
 	margin-bottom: 0px;
+    font-family: 'animalcrossing';
+    font-size: 20px;
 }
-body,td,th {
+td,th {
 	color: #5D4B47;
-	font-family: 'kirbysadventure';
-	font-size: small;
-	font-weight: bold;
+	font-family: "pearsoda";
+	font-size: 20px;
+}
+
+li {
+    text-indent: 20px;
 }
 a:link {
 	color: #BF4D9E;
@@ -35,14 +67,14 @@ a:link {
 }
 a:visited {
 	text-decoration: none;
-	color: #00adef;
+	color: #5D4B47;
 	border-bottom-width: 1px;
 	border-bottom-style: dashed;
 	border-bottom-color: #F58B49;
 }
 a:hover {
 	text-decoration: none;
-	border-bottom-width: 1px;
+	border-bottom-width: 2px;
 	border-bottom-style: dashed;
 	border-bottom-color: #EB6088;
 	color: #EB6088;
@@ -89,16 +121,16 @@ a:active {
 	margin-left: auto;
 	text-align: center;
 	padding-top: 10px;
-	font-size: medium;
-	font-family: 'aansa', sans-serif !important;
-	letter-spacing: -1px;
+	font-size: 25px;
+	font-family: 'pearsoda', sans-serif;
+	letter-spacing: 1px;
 	padding-bottom: 10px;
 }
 .footer {
-	font-family: 'aasna';
-	font-size: x-small;
+	font-family: 'nds';
+	font-size: 15px;
 	font-weight: bold;
-	color: #5D4B47;
+	color: #CB5E3A;
 	background-color: #F1B559;
 	text-align: center;
 	width: 798px;
@@ -144,7 +176,7 @@ a:active {
 	margin-bottom: 10px;
 }
 .bodz {
-	background-color: #FFE0EE;
+	background-color: #F0FBFF;
 	width: 540px;
 	margin-right: auto;
 	margin-left: auto;
@@ -156,22 +188,23 @@ a:active {
     background-size: 30px;
 }
 .bodz h1 {
-	font-size: small;
-	border-bottom-width: 1px;
+	font-size: 20px;
+	border-bottom-width: 2px;
 	border-bottom-style: dashed;
-	border-bottom-color: #5D4B47;
+	border-bottom-color: #F58B49;
 	letter-spacing: 2px;
 	text-indent: 15px;
+    padding-bottom: 7px;
 }
 .bodz h2 {
-	font-size: small;
+	font-size: 20px;
 	letter-spacing: 2px;
 	text-indent: 15px;
 }
 .bodz u {
-	border-bottom-width: 1px;
+	border-bottom-width: 2px;
 	border-bottom-style: dashed;
-	border-bottom-color: #F58B49;
+	border-bottom-color: #BF4D9E;
 	text-decoration: none;
 }
 #blockq {
@@ -191,16 +224,16 @@ a:active {
 .sbititle {
 	background-image: url(images/sbihead.png);
 	background-repeat: no-repeat;
-	height: 24px;
+	height: 30px;
 	width: 205px;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 12px;
 	margin-left: auto;
-	padding-top: 5px;
-	font-family: "aansa", sans-serif;
-	font-size: small;
+	padding-top: 0px;
+	font-family: "pearsoda", sans-serif;
+	font-size: 25px;
 	text-indent: 45px;
-	letter-spacing: -0.5px;
+	letter-spacing: 0px;
 }
 
 .sbibod {
@@ -209,8 +242,8 @@ a:active {
 	margin-right: auto;
 	margin-bottom: 10px;
 	margin-left: auto;
-	font-family: Tahoma;
-	font-size: x-small;
+	font-family: "pearsoda";
+	font-size: 20px;
 	font-weight: bold;
 	background-color: #F58B49;
 	border: 1px solid #F58B49;
@@ -236,8 +269,8 @@ a:active {
 	margin-right: auto;
 	margin-bottom: 10px;
 	margin-left: auto;
-	font-family: Tahoma;
-	font-size: x-small;
+	font-family: 'nds';
+	font-size: 17px;
 	font-weight: bold;
 	background-color: #F58B49;
 	border-top: 1px solid #F58B49;
