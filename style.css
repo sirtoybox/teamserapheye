@@ -1,16 +1,16 @@
 /* Page Elements */
 @font-face {
     font-family: 'aansa';
-    src: url('fonts/aansa/aansa.ttf') format('truetype');
+    src: url('..fonts/aansa/aansa.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'kirbysadventure';
-    src: url('fonts/aansa/kirbysadventure.ttf') format('truetype');
+    src: url('fonts/aansa/Kirbys-Adventure.ttf') format('truetype');
 }
 
  @font-face {
-    font-family: perfectdos;
+    font-family: 'perfectdos';
     src: url('fonts/perfectdosvga/Perfect DOS VGA 437 Win.ttf') format('truetype');
 }
 
@@ -19,8 +19,7 @@ body {
     background-size: 70%;
     background-attachment: inherit;
     background-repeat: repeat-x;
-    background-color: #f8ec3c
-;
+    background-color: #f8ec3c;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -91,16 +90,16 @@ a:active {
 	text-align: center;
 	padding-top: 10px;
 	font-size: medium;
-	font-family: "aansa", sans-serif;
+	font-family: 'aansa', sans-serif !important;
 	letter-spacing: -1px;
 	padding-bottom: 10px;
 }
 .footer {
-	font-family: Tahoma;
+	font-family: 'aasna';
 	font-size: x-small;
 	font-weight: bold;
-	color: #f49ac1;
-	background-color: #FFE0EE;
+	color: #5D4B47;
+	background-color: #F1B559;
 	text-align: center;
 	width: 798px;
 	margin-right: 1px;
