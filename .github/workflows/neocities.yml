@@ -9,7 +9,7 @@ on:
       - master
     # only run deploys when public changes
     paths:
-      - 'public/**'
+      - 'index/**'
 
 jobs:
   deploy:
