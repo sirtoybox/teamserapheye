@@ -44,7 +44,7 @@ src: url('fonts/AnimalCrossing/animalcrossing.ttf') format('truetype');
 body {
 	background-image: url(images/sky.png);
     background-size: 70%;
-    background-attachment: inherit;
+    background-attachment: fixed;
     background-repeat: repeat-x;
     background-color: #f8ec3c;
 	margin-top: 0px;
@@ -68,6 +68,17 @@ h4 {
     text-align: center;
     font: "nds";
     font-size: 25px;
+}
+
+h5 {
+    text-align: center;
+    
+}
+
+h5:hover {
+    text-align: center;
+    text-decoration: none;
+    
 }
 
 li {
@@ -313,4 +324,36 @@ a:active {
 	background-position: 7px center;
 	color: #F58B49;
 	padding-left: 30px;
+}
+
+input {
+    width: auto;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    width: 401px;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
 }
